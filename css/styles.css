@@ -1,0 +1,38 @@
+
+body {
+    background-color: darkcyan;
+}
+
+.grid {
+    display: grid;
+    background-color: chartreuse;
+    grid-template-areas: "head head"
+                        "menu main"
+                        "foot foot";
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    padding: 0px 10px;
+
+}
+    
+.a {
+    grid-area: head;
+background-color: red;
+margin-top: 10px;
+}
+
+.b {
+    grid-area: menu;
+background-color: blue;
+}
+
+.c {
+    grid-area: main;
+background-color: brown;
+}
+
+.d {
+    grid-area: foot;
+background-color: darkturquoise;
+margin-bottom: 10px;
+}
